@@ -9,7 +9,7 @@ def is_prime(n):
         return True
     if n==1:
         return False
-    if num_str[-1] in ['2','5']:
+    if num_str[-1] in ['2','4','5','6','8']:
         return False
     for i in range(2,int(sqrt(n))+1):
         if n%i==0:
